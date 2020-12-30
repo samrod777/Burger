@@ -1,7 +1,6 @@
 {{!-- HTML for handlebars to render to --}}
 <div class="container">
   <div class="row burger-display">
-    {{!-- Available burgers list --}}
     <div class="col options">
       <h2>Pick a Burger!</h2>
 
@@ -14,8 +13,7 @@
       </ul>
     </div>
 
-    {{!-- Devoured burgers list --}}
-    <div class="col eaten">
+    <div class="col devoured">
       <h2>Devoured Burgers!</h2>
 
       <ul>
@@ -28,14 +26,13 @@
     </div>
   </div>
 
-  {{!-- Make a burger input --}}
   <div class="row">
     <div class="col-md-6 mx-auto make-burger-col">
       <h3>Make a New Burger</h3>
       <form class="burger-form">
         <div>
           <input type="text" id="burger" name="burger_name">
-          <button type="submit" class="btn btn-secondary make-burger-btn"><img src="/public/pictures/submit burger.jpg" alt="Smilling burger" class="SmillingBurger"></button>
+          <button type="submit" class="btn btn-secondary make-burger-btn">Make A Burger!</button>
         </div>
       </form>
     </div>
