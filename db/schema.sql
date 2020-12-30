@@ -1,4 +1,3 @@
-In the db folder, create a file named schema.sql. Write SQL queries this file that do the following:
 CREATE DATABASE burgers_db;
 
 USE burgers_db;
