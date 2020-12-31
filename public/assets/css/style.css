@@ -47,6 +47,8 @@ ul {
 
 .devour_btn {
     margin: 2%;
+    background-color: red;
+    color: yellow;
 }
 
 .row {
